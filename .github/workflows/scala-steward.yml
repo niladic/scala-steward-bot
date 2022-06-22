@@ -16,4 +16,4 @@ jobs:
           github-token: ${{ secrets.SCALA_STEWARD_GH_TOKEN }}
           author-email: git@nil.choron.cc
           author-name: niladic
-          github-repository: niladic/aplus
+          repos-file: 'scala-steward-repos.md'
