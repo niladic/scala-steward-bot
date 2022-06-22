@@ -10,6 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     name: Run Scala Steward
     steps:
+      - uses: actions/checkout@v2
       - name: Run Scala Steward
         uses: scala-steward-org/scala-steward-action@v2
         with:
