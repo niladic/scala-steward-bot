@@ -1,2 +1,1 @@
-- niladic/aplus
 - betagouv/aplus
